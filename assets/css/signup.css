@@ -1,0 +1,84 @@
+/* signup.css */
+
+body {
+ font-family: Arial, sans-serif;
+ background-color: #fafafa;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ margin: 0;
+ background: url('../images/background-login.png') no-repeat center center fixed;
+ background-size: cover;
+}
+
+.signup-container {
+ background-color: white;
+ padding: 20px;
+ border-radius: 8px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ width: 300px;
+ text-align: center;
+}
+
+h1 {
+ font-size: 24px;
+ color: #000;
+ margin-bottom: 10px;
+}
+
+.subtitle {
+ font-size: 14px;
+ color: #666;
+ margin-bottom: 20px;
+}
+
+.input-group {
+ margin-bottom: 15px;
+ text-align: left;
+}
+
+.input-group label {
+ display: block;
+ font-size: 12px;
+ color: #333;
+ margin-bottom: 5px;
+ text-transform: uppercase;
+}
+
+.input-group input {
+ width: 100%;
+ padding: 10px;
+ border: 2px solid #f27a1a;
+ border-radius: 20px;
+ font-size: 14px;
+ box-sizing: border-box; 
+ text-align: center;
+}
+
+.input-group input[type="date"] {
+ text-align: left;
+}
+
+.btn {
+ width: 100%;
+ padding: 10px;
+ background-color: #f27a1a;
+ border: none;
+ border-radius: 20px;
+ color: white;
+ font-size: 16px;
+ cursor: pointer;
+ text-transform: uppercase;
+ margin-top: 20px;
+}
+
+.btn:hover {
+ background-color: #d56a14;
+}
+
+.error-message, .success-message {
+ font-size: 14px;
+ color: red;
+ margin-bottom: 15px;
+}
